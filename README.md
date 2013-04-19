@@ -5,9 +5,9 @@ for HolisticWare Projects.
 
 TODOz:
 
-1	bug in plugin searches for icon - annoying dialog ignore/continue etc   
+1.	bug in plugin searches for icon - annoying dialog ignore/continue etc   
 	fix exception during adding source project
-2 	settings file to add filter from settings/config
+2. 	settings file to add filter from settings/config
 
 
 
