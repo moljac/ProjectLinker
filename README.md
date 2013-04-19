@@ -1,12 +1,19 @@
-#ProjectLinker tool for Visual Studio 2010 by HolisticWare team
+# ProjectLinker tool for Visual Studio 2010 by HolisticWare team #
 
 This is modification of the original Patterns & Practices Project Linker tool
 for HolisticWare Projects.
 
-+ []() 
-+ []() 
-+ []() 
-+ []() 
+TODOz:
+
++	bug in plugin searches for icon - annoying dialog ignore/continue etc
++ 	settings file to add filter from settings/config
+
+
+
++ 	[]() 
++ 	[]() 
++ 	[]() 
++ 	[]() 
 
 ## DONE
 1	Exclusion file patterns for cross platform development  
