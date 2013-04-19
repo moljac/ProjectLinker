@@ -5,8 +5,9 @@ for HolisticWare Projects.
 
 TODOz:
 
-+	bug in plugin searches for icon - annoying dialog ignore/continue etc
-+ 	settings file to add filter from settings/config
+1	bug in plugin searches for icon - annoying dialog ignore/continue etc   
+	fix exception during adding source project 
+2 	settings file to add filter from settings/config
 
 
 
@@ -15,8 +16,9 @@ TODOz:
 + 	[]() 
 + 	[]() 
 
-## DONE
+## DONE ##
 1	Exclusion file patterns for cross platform development  
+<pre>
 		WP - Windows Phone
 		MT - MonoTouch  
 		MA - Mono for Android  
@@ -47,22 +49,21 @@ TODOz:
 				\\?\.ASPNET(\\.*)?$  
 				\\?\.MM(\\.*)?$  
 				\\?\.Mono(\\.*)?$  
-
+</pre>
 			
-Paste following strings at the begginging of ProjectLinkerExcludeFilter attribute
+Paste following strings at the beginning of ProjectLinkerExcludeFilter attribute
+
 	\.WP.cs;\.MA.cs;\.MT.cs;\.SLRIA.cs;\.WF.cs;\.WPF.cs;\.ASPNET.cs;\.MM.cs;\.Mono.cs;\\?\.WP(\\.*)?$;\\?\.MA(\\.*)?$;\\?\.MT(\\.*)?$;\\?\.SLRIA(\\.*)?$;\\?\.WF(\\.*)?$;\\?\.WPF(\\.*)?$;\\?\.ASPNET(\\.*)?$;\\?\.MM(\\.*)?$;\\?\.Mono(\\.*)?$;
 
   <ProjectExtensions>
-    <VisualStudio>
+	<VisualStudio>
 		<UserProperties 
 			ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" 
 			ProjectLinkReference="Some guid" 
 		/>
-    </VisualStudio>
+	</VisualStudio>
   </ProjectExtensions>
 
-## TODOs
-1	Fix exception during addink source project (
 
 #ProjectLinker tool for Visual Studio 2010
 
