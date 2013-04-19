@@ -1,7 +1,7 @@
 #ProjectLinker tool for Visual Studio 2010 by HolisticWare team
 
 This is modification of the original Patterns & Practices Project Linker tool
-for HolisticWare Project.
+for HolisticWare Projects.
 
 + []() 
 + []() 
@@ -10,36 +10,36 @@ for HolisticWare Project.
 
 ## DONE
 1	Exclusion file patterns for cross platform development  
-	WP - Windows Phone
-	MT - MonoTouch  
-	MA - Mono for Android  
-	WF - Windows Forms
-	WPF - WPF    
-	SLRIA - Silverlight RIA   
-	ASPNET - ASP.net   
-	MM - Mono Mobile   
-	Mono - Mono general  
-	1	Exclude patterns in csproj file excluding 
-		1	source files (*.cs)  
-			\.WP.cs  
-			\.MA.cs  
-			\.MT.cs   
-			\.SLRIA.cs  
-			\.WF.cs  
-			\.WPF.cs  
-			\.ASPNET.cs  
-			\.MM.cs  
-			\.Mono.cs  
-		2	directories
-			\\?\.WP(\\.*)?$  
-			\\?\.MA(\\.*)?$  
-			\\?\.MT(\\.*)?$  
-			\\?\.SLRIA(\\.*)?$  
-			\\?\.WF(\\.*)?$  
-			\\?\.WPF(\\.*)?$  
-			\\?\.ASPNET(\\.*)?$  
-			\\?\.MM(\\.*)?$  
-			\\?\.Mono(\\.*)?$  
+		WP - Windows Phone
+		MT - MonoTouch  
+		MA - Mono for Android  
+		WF - Windows Forms
+		WPF - WPF    
+		SLRIA - Silverlight RIA   
+		ASPNET - ASP.net   
+		MM - Mono Mobile   
+		Mono - Mono general  
+		1	Exclude patterns in csproj file excluding 
+			1	source files (*.cs)  
+				\.WP.cs  
+				\.MA.cs  
+				\.MT.cs   
+				\.SLRIA.cs  
+				\.WF.cs  
+				\.WPF.cs  
+				\.ASPNET.cs  
+				\.MM.cs  
+				\.Mono.cs  
+			2	directories
+				\\?\.WP(\\.*)?$  
+				\\?\.MA(\\.*)?$  
+				\\?\.MT(\\.*)?$  
+				\\?\.SLRIA(\\.*)?$  
+				\\?\.WF(\\.*)?$  
+				\\?\.WPF(\\.*)?$  
+				\\?\.ASPNET(\\.*)?$  
+				\\?\.MM(\\.*)?$  
+				\\?\.Mono(\\.*)?$  
 
 			
 Paste following strings at the begginging of ProjectLinkerExcludeFilter attribute
